@@ -24,3 +24,120 @@ a {
     background: black;
   }
 }
+
+u {
+  cursor: pointer;
+}
+
+.ripple-logo {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-color: black;
+  border-radius: 50%;
+  animation: ripple 1.5s ease-out infinite;
+}
+
+@keyframes ripple {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+
+.center {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+}
+
+.h2-center {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.5em;
+}
+
+.input-text {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #005c61;
+}
+
+.MuiFormLabel-root {
+  color: #005c61 !important;
+}
+
+.MuiInputBase-root {
+  background-color: white;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  color: #005c61 !important;
+}
+
+.MuiButton-outlined {
+  border-color: #005c61 !important;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('/asset/font/Inconsolata/Inconsolata-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Squada-One';
+  src: url('/asset/font/Squada_One/SquadaOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Electrolize';
+  src: url('/asset/font/Electrolize/Electrolize-Regular.ttf');
+}
+
+h1, h2, h3, h4 {
+  font-family: Electrolize, sans-serif;
+  font-weight: 600
+}
+
+div, p, a {
+  font-family: Inconsolata, sans-serif;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.css-et1ao3-MuiTypography-root {
+  font-family: Electrolize, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem
+}
+
+.css-jb1ygz-MuiTypography-root {
+  font-family: Electrolize, sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem
+}
+
+.css-18j4ein-MuiTypography-root {
+  font-family: Inconsolata, sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.css-10hburv-MuiTypography-root {
+  font-size: 1.5rem;
+  font-family: Inconsolata, sans-serif;
+}
+
+
+
