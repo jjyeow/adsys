@@ -79,7 +79,7 @@ function AboutUs() {
                             Currently, we only provide web application development service using the latest technologies like ReactJS, NextJS and Django on a Web Server Architecture, but rest assured, we strive to be in a constant learning mindset.
                             <br/>
                             <br/>
-                            Starting in 2019, we had worked on multipled web projects for local businesses. We fundamentally believe that each project that we receive have it's own precious meaning that will benefit the business and the users.
+                            Starting in 2019, we had worked on multipled web projects for local businesses. We fundamentally believe that each project that we receive have it&apos;s own precious meaning that will benefit the business and the users.
                             <br/>
                             <br/>
                             Whether you are a newly started startup or a well established enterprise, we are able to bring your idea to life through web development!

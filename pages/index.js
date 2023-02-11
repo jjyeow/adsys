@@ -202,7 +202,7 @@ function HomePage() {
                                                 </Typography>
                                                 <Divider style={{marginBottom: 20, marginTop: 20}}/>
                                                 <Typography variant="body2" color="lightgray" style={width ? {fontSize: "1.3rem"} : {fontSize: "0.9rem"}}>
-                                                    Working alongside with you to develop a customised software through your own mind to maximize your business's productivity
+                                                    Working alongside with you to develop a customised software through your own mind to maximize your business&apos;s productivity
                                                 </Typography>
                                             </CardContent>
                                             <CardActions disableSpacing={false} onClick={()=>{router.push("/contactus")}}>
@@ -319,7 +319,7 @@ function HomePage() {
                             </div>
                         </div>
                         <CustomDivider/>
-                        <h1>WHO WE'VE ASSOCIATED WITH</h1>
+                        <h1>WHO WE&apos;VE ASSOCIATED WITH</h1>
                         <br/>
                         <div style={{display: "flex", width: "90vw", flexWrap: "wrap", justifyContent: "space-between", margin: "auto"}}>
                             <Partner 
