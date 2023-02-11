@@ -25,18 +25,11 @@ const styles = makeStyles({
     }
 })
 
-const styles2 = theme => ({
-    listItemText:{
-      fontSize:'48px',//Insert your required size
-    }
-});
-
 export default function NavigationBar() {
     const router = useRouter()
     const [open, setOpen] = useState(false)
     const Logo = '/asset/logo.png'
     const classes = styles();
-    const classes2 = styles2();
     return (
         <div style={{zIndex: 1000, position: "fixed", top: 0, background: "white", width: "100vw"}}>
             <React.Fragment key={"navbar"}>
@@ -78,7 +71,7 @@ export default function NavigationBar() {
                                     : <InfoIcon style={{ color: "white" }}/>
                                 }
                             </ListItemIcon>
-                            <ListItemText primary={text} classes={{primary:classes2.listItemText}} />
+                            <ListItemText primary={text}/>
                             </ListItemButton>
                         </ListItem>
                         ))}

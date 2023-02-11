@@ -79,7 +79,7 @@ u {
   background-color: white;
 }
 
-.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+.MuiButton-root {
   color: #005c61 !important;
 }
 
@@ -116,28 +116,30 @@ p {
   font-size: 1.5rem;
 }
 
-.css-et1ao3-MuiTypography-root {
+.MuiTypography-root {
   font-family: Electrolize, sans-serif;
   font-weight: 600;
   font-size: 1.5rem
 }
 
-.css-jb1ygz-MuiTypography-root {
+.MuiTypography-body1 {
   font-family: Electrolize, sans-serif;
   font-weight: 600;
   font-size: 1.7rem
 }
 
-.css-18j4ein-MuiTypography-root {
+.MuiTypography-body2 {
   font-family: Inconsolata, sans-serif;
   font-weight: 200;
   font-size: 1rem;
 }
 
-.css-10hburv-MuiTypography-root {
+.MuiList-root {
   font-size: 1.5rem;
-  font-family: Inconsolata, sans-serif;
+  font-family: Electrolize, sans-serif !important;
 }
+
+
 
 
 

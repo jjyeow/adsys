@@ -23,11 +23,19 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 
 import CodeIcon from '@mui/icons-material/Code';
 import ForumIcon from '@mui/icons-material/Forum';
+import { makeStyles } from '@mui/styles';
 
 
 const CustomDivider = (props) => (
     <Divider style={{marginTop: 50, marginBottom: 50}}/>
 )
+
+const styles = makeStyles({
+    drawer: {
+        background: "#005c61",
+        color: "white"
+    }
+})
 
 function HomePage() {
     const router = useRouter()
