@@ -66,7 +66,7 @@ function HomePage() {
     }, [])
 
     return (
-        <div style={{overflowX: "hidden", overFlowY: "hidden"}}>
+        <div>
             <Head>
                 <title>ADSYS Consulting Sdn Bhd</title>
                 <meta name="description" content="ADSYS Consulting Sdn Bhd" />

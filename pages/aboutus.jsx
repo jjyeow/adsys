@@ -29,7 +29,7 @@ function AboutUs() {
     }, [])
 
     return (
-        <div style={{overflowX: "hidden", overFlowY: "hidden"}}>
+        <div>
             <Head>
                 <title>ADSYS Consulting Sdn Bhd</title>
                 <meta name="description" content="About Us" />
