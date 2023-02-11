@@ -142,7 +142,6 @@ function ContactUs() {
                                 </MenuItem>
                             </TextField>
                             <TextField
-                                className="input-text"
                                 required
                                 id="outlined-required"
                                 label="Name"
@@ -151,9 +150,10 @@ function ContactUs() {
                                 onChange={(e) => {
                                     setName(e.target.value)
                                 }}
+                                style={{marginTop: 30, marginRight: 30}}
                             />
                             <TextField
-                                className="input-text"
+                                style={{marginTop: 30, marginRight: 30}}
                                 id="outlined"
                                 label="Email"
                                 fullWidth
@@ -163,7 +163,7 @@ function ContactUs() {
                                 }}
                             />
                             <TextField
-                                className="input-text"
+                                style={{marginTop: 30, marginRight: 30}}
                                 id="outlined"
                                 label="Contact No."
                                 fullWidth
@@ -173,7 +173,7 @@ function ContactUs() {
                                 }}
                             />
                             <TextField
-                                className="input-text"
+                                style={{marginTop: 30, marginRight: 30}}
                                 id="filled-multiline-flexible"
                                 label="Message"
                                 multiline
