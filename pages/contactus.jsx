@@ -187,17 +187,7 @@ function ContactUs() {
                             <Button variant="outlined" style={{marginTop: 50, fontSize: "1.2rem"}} onClick={()=>{submitEnquiry()}}>SUBMIT</Button>
                         </div>
                         <div style={{paddingLeft: width ? 50 : 0, paddingTop: width ? 0 : 50, paddingBottom: width ? 0 : 50, textAlign: width ? "left" : "center", height: "100%"}}>
-                            <h3>Address</h3>
-                            <br/>
-                            <div>
-                                No 8, Jalan SS 2/46
-                                <br/>
-                                47300 Petaling Jaya,
-                                <br/>
-                                Selangor
-                            </div>
-                            <br/>
-                            <h3>Phone Number</h3>
+                            <div style={{fontWeight: "bold", fontSize: "2rem"}}>Phone Number</div>
                             <br/>
                             <div>+6012-9281428</div>
                         </div>

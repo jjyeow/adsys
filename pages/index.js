@@ -50,6 +50,7 @@ function HomePage() {
     const ReactLogo = '/asset/React-icon.png'
 
     const PartnerAvatar = '/asset/boy.png'
+    const KhaiAvatar = '/asset/khai.jpeg'
 
     const Idea = '/asset/idea.png'
     const Process = '/asset/process.png'
@@ -332,20 +333,20 @@ function HomePage() {
                         <div style={{display: "flex", width: "90vw", flexWrap: "wrap", justifyContent: "space-between", margin: "auto"}}>
                             <Partner 
                                 width={width}
-                                name={"Partner 1"}
-                                title={"Director"}
-                                companyName={"Company A"}
-                                avatar={PartnerAvatar}
-                                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
+                                name={"Khai"}
+                                title={"Chief Technology Director"}
+                                companyName={"Enlliance Management"}
+                                avatar={KhaiAvatar}
+                                description={"ADSYS Consulting is a top-tier ERP development company that is known for providing exceptional service. Their team of talented developers is committed to delivering projects on time and exceeding expectations, while maintaining the highest level of quality. They have a deep understanding of the latest technologies and trends in the industry, and their dedication to understanding their clients' unique needs sets them apart from their competitors. ADSYS consistently delivers successful projects and is a reliable, knowledgeable, and results-driven partner for any business."}
                             />
-                            <Partner 
+                            {/* <Partner 
                                 width={width}
                                 name={"Partner 2"}
                                 title={"Director"}
                                 companyName={"Company B"}
                                 avatar={PartnerAvatar}
                                 description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
-                            />
+                            /> */}
                         </div>
                     </div>  
                     <CustomDivider/>
