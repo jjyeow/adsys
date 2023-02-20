@@ -13,6 +13,9 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 
+import Link from '@mui/material/Link';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 function ContactUs() {
     const router = useRouter()
@@ -190,6 +193,11 @@ function ContactUs() {
                             <div style={{fontWeight: "bold", fontSize: "2rem"}}>Phone Number</div>
                             <br/>
                             <div>+6012-9281428</div>
+                            <br/>
+                            <br/>
+                            <Link href="https://www.linkedin.com/company/adsys-consulting-sdn-bhd/" target="_blank">
+                                <LinkedInIcon style={{fontSize: 32}}/>
+                            </Link>
                         </div>
                     </div>
                 </div>
