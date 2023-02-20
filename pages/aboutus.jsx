@@ -82,7 +82,7 @@ function AboutUs() {
                             Starting in 2019, we had worked on multipled web projects for local businesses. We fundamentally believe that each project that we receive have it&apos;s own precious meaning that will benefit the business and the users.
                             <br/>
                             <br/>
-                            Whether you are a newly started startup or a well established enterprise, we are able to bring your idea to life through web development!
+                            Whether you are a newly started startup or a well established enterprise, we are able to bring your idea to life through <u style={{color: "black"}} onClick={()=>{router.push("/webdevelopment")}}>web development</u>!
                         </div>
                     </div>
                 </div>

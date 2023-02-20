@@ -83,7 +83,7 @@ function Process() {
                     <div style={{display: "flex", justifyContent: "center", paddingTop: "20vh"}}>
                         <div style={ width ? {width: "40vw", maxWidth: "40vw"} : {width: "80vw"}}>
                             <h1>HOW WE WORK</h1>
-                            <div style={{textAlign: "justify"}}>Currently, we are a local startup software house in Malaysia, providing web development service to our clients. We believe in using the AGILE method which emphasize on transparency and efficiency while delivering our services.</div>
+                            <div style={{textAlign: "justify"}}>Currently, we are a local startup software house in Malaysia, providing <u style={{color: "black"}} onClick={()=>{router.push("/webdevelopment")}}>web development</u> service to our clients. We believe in using the AGILE method which emphasize on transparency and efficiency while delivering our services.</div>
                         </div>
                     </div>
                     <div style={{margin: "auto", paddingTop: 50, width: "80vw", display: "flex", flexWrap: "wrap", justifyContent: "space-around", flexDirection: width ? "row" : "column"}}>

@@ -185,7 +185,7 @@ function HomePage() {
                                                 </Typography>
                                                 <Divider style={{marginBottom: 20, marginTop: 20}}/>
                                                 <Typography variant="body2" color="lightgray" style={width ? {fontSize: "1.3rem"} : {fontSize: "0.9rem"}}>
-                                                    Providing you consultation on the possibility in digitalizing your business through web development!
+                                                    Providing you consultation on the possibility in digitalizing your business through <u style={{color: "lightgray"}} onClick={()=>{router.push("/webdevelopment")}}>web development</u>!
                                                 </Typography>
                                             </CardContent>
                                             <CardActions disableSpacing={false} onClick={()=>{router.push("/contactus")}}>
