@@ -85,7 +85,9 @@ function WebDevelopment() {
             <div style={{width: "100vw", height: "100vh", backgroundColor: "white", color: "#005c61", lineHeight: "1.5em"}}>
                 <NavigationBar/>
                 <div style={{marginTop: "12vh", backgroundColor: "white", color: "#005c61", zIndex: 1000}}>
-                    <VerticalDivider height={"25vh"}/>
+                    {width ? 
+                    <VerticalDivider height={"10vh"}/>
+                    : null}
                     <div style={width ? {display: "flex", paddingLeft: 40, paddingRight: 40} : {display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", paddingLeft: 40, paddingRight: 40}}>
                         <div style={width ? 
                             {position: "relative", height: "70vh", margin: "0px 2vw 0px 5vw", maxWidth: "45vw", width: "45vw"} :

@@ -126,7 +126,7 @@ function HomePage() {
                             left: 0, right: 0, 
                         }}>
                             <h1>MAKE IDEAS HAPPEN</h1>
-                            <div>We are a small team of web developers that could transform your ideas into reality via&nbsp;
+                            <div>We are an elite team of web developers that could transform your ideas into reality via&nbsp;
                                 <u style={{color: "black"}} onClick={()=>{router.push("/webdevelopment")}}>web development</u>.
                             </div>
                         </div>

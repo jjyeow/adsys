@@ -15,6 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 
 import Link from '@mui/material/Link';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 
 function ContactUs() {
@@ -126,6 +127,22 @@ function ContactUs() {
                     <h1 style={{textAlign: "center"}}>Contact Us</h1>
                     <div className="center">Drop us a message!</div>
                     <div style={{display: "flex", alignItems: width ? "" : "center", justifyContent: "space-between", flexDirection: width ? "row" : "column", fontSize: "1.5rem", paddingTop: 50}}>
+                        <div style={{paddingLeft: width ? 50 : 0, paddingTop: width ? 0 : 50, paddingBottom: width ? 0 : 50, textAlign: width ? "left" : "center", height: "100%"}}>
+                            <div style={{fontWeight: "bold", fontSize: "2rem"}}>Phone Number</div>
+                            <br/>
+                            <div>+6012-9281428</div>
+                            <br/>
+                            <br/>
+                            <Link 
+                                href={
+                                    `https://api.whatsapp.com/send?phone=+60129281428&text=Hi, I would like to know more about the service that your company are providing!`
+                                    } target="_blank">
+                                <WhatsAppIcon style={{fontSize: 36, marginRight: 10, color: "#25D366"}}/>
+                            </Link>
+                            <Link href="https://www.linkedin.com/company/adsys-consulting-sdn-bhd/" target="_blank">
+                                <LinkedInIcon style={{fontSize: 36, color: "#0072b1"}}/>
+                            </Link>
+                        </div>
                         <div style={{display: "flex", flexDirection: "column", width: width ? "60%" : "95%"}}>
                             <TextField
                                 id="outlined-select"
@@ -188,16 +205,6 @@ function ContactUs() {
                                 }}
                             />
                             <Button variant="outlined" style={{marginTop: 50, fontSize: "1.2rem"}} onClick={()=>{submitEnquiry()}}>SUBMIT</Button>
-                        </div>
-                        <div style={{paddingLeft: width ? 50 : 0, paddingTop: width ? 0 : 50, paddingBottom: width ? 0 : 50, textAlign: width ? "left" : "center", height: "100%"}}>
-                            <div style={{fontWeight: "bold", fontSize: "2rem"}}>Phone Number</div>
-                            <br/>
-                            <div>+6012-9281428</div>
-                            <br/>
-                            <br/>
-                            <Link href="https://www.linkedin.com/company/adsys-consulting-sdn-bhd/" target="_blank">
-                                <LinkedInIcon style={{fontSize: 32}}/>
-                            </Link>
                         </div>
                     </div>
                 </div>
